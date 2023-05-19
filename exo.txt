@@ -1,0 +1,24 @@
+Exercice :Â 
+
+Ã€ partir de la base de donnÃ©es Ligue fournie et du dÃ©but d'application fourni (MVCLigue-V2) :
+
+a) CrÃ©er le formulaire de modification de joueur, permettant de modifier un joueur en spÃ©cifiant l'Ã©quipe pour laquelle il joue Ã  l'aide d'un select. Ce formulaire doit Ãªtre populÃ© avec les valeurs existantes dans la BD lors de l'arrivÃ©e sur le formulaire.
+
+Il faudra protÃ©ger ce formulaire contre les attaques par injection en utilisant les requÃªtes prÃ©parÃ©es!
+Il faudra aussi se protÃ©ger contre les attaques XSS.
+
+b) CrÃ©er le formulaire de recherche permettant de trouver un joueur par son prÃ©nom et / ou son nom. 
+Le rÃ©sultat affichera tous les joueurs possÃ©dant un nom ou un prÃ©nom similaire Ã  celui entrÃ©, 
+ainsi que la ville et l'Ã©quipe de ces joueurs. Cette requÃªte doit aussi Ãªtre prÃ©parÃ©e!
+Et... elle nÃ©cessite une jointure...
+
+c) Ajouter la fonctionnalitÃ© de tri dans votre liste d'Ã©quipes pour trier les Ã©quipes 
+par nom ou par ville. Â 
+
+La navigation doit aussi Ãªtre intÃ©grÃ©e dans votre mini-site de gestion des joueurs de la ligue 
+(je dois pouvoir naviguer vers toutes vos pages Ã  l'aide de liens). 
+
+Vous DEVEZ ABSOLUMENT IMPÃ‰RATIVEMENT SANS AUCUN DOUTE
+utiliser la structure vue dans ce cours - MVCModulaire.
+
+LE SQL DANS LES AUTRES PAGES QUE LE MODÃˆLE NE SERA PAS ACCEPTÃ‰!
