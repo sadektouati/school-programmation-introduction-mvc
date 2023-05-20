@@ -1,11 +1,12 @@
 <?php
+
 /*
-        modele.php est le fichier qui représente notre MODÈLE dans notre architecture MVC. 
-        C'est donc dans ce fichier que nous retrouverons TOUTES nos requêtes SQL sans AUCUNE EXCEPTION. 
-        C'est aussi ici que se trouvera la connexion à la base de données et les informations nécessaires 
-        à celle-ci (username, hostname, password, nom de la base, etc...)
-    
+    modele.php est le fichier qui représente notre MODÈLE dans notre architecture MVC. 
+    C'est donc dans ce fichier que nous retrouverons TOUTES nos requêtes SQL sans AUCUNE EXCEPTION. 
+    C'est aussi ici que se trouvera la connexion à la base de données et les informations nécessaires 
+    à celle-ci (username, hostname, password, nom de la base, etc...)
 */
+
 define("SERVER", "localhost");
 define("DBNAME", "pr_ligue");
 require("./credentials.php");
