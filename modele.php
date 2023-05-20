@@ -5,12 +5,10 @@
         C'est aussi ici que se trouvera la connexion à la base de données et les informations nécessaires 
         à celle-ci (username, hostname, password, nom de la base, etc...)
     
-    */
+*/
 define("SERVER", "localhost");
-define("USERNAME", "root");
-define("PASSWORD", "");
-define("DBNAME", "ligue");
-
+define("DBNAME", "pr_ligue");
+require("./credentials.php");
 function connectDB()
 {
     //se connecter à la base de données
