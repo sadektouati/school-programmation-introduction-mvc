@@ -1,6 +1,6 @@
-create database ligue;
+create database pr_ligue;
 set names utf8;
-use ligue;
+use pr_ligue;
 
 -- phpMyAdmin SQL Dump
 -- version 4.9.2
@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `ligue`
+-- Base de données :  `pr_ligue`
 --
 
 -- --------------------------------------------------------
